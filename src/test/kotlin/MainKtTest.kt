@@ -4,7 +4,7 @@ class MainKtTest {
 
     @org.junit.Test
     fun discountingAddComissionVK() {
-        val result = discounting("VK", 100, 500)
+        val result = discounting("VK", 100, 5000)
         assertEquals(500, result)
     }
     @org.junit.Test
